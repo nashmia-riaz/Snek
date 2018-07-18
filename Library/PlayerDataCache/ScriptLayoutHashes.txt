@@ -121,7 +121,6 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 c6bda81324b50f5c67c26c2571ab5c5c Assembly-CSharp.dll:.PlayGameMobile
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AlotButtonsMobile
 cfc7f0e08d3b176ec307cd85593e420e Assembly-CSharp.dll:.PlayerController
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour

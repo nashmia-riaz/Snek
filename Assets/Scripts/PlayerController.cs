@@ -42,13 +42,13 @@ public class PlayerController : MonoBehaviour
         {
             this.direction = 2;
         }
-        if (Input.GetKeyDown(player.keys[2]) && direction != 1) //down
-        {
-            this.direction = 0;
-        }
-        if (Input.GetKeyDown(player.keys[0]) && direction != 0) //up
+        if (Input.GetKeyDown(player.keys[2]) && direction != 0) //down
         {
             this.direction = 1;
+        }
+        if (Input.GetKeyDown(player.keys[0]) && direction != 1) //up
+        {
+            this.direction = 0;
         }
 
         WhenMoving();
@@ -71,14 +71,14 @@ public class PlayerController : MonoBehaviour
             Vector3 pos = new Vector3(transform.position.x - size / 2 - 0.4f, transform.position.y, transform.position.z);
             createTrail(pos, transform.rotation);
         }
-        if (direction == 0 && canMove)
+        if (direction == 1 && canMove)
         {
             trailScale = 0;
             transform.eulerAngles = new Vector3(0, 90, 0);
             Vector3 pos = new Vector3(transform.position.x, transform.position.y, transform.position.z + size / 2 + 0.4f);
             createTrail(pos, transform.rotation);
         }
-        if (direction == 1 && canMove)
+        if (direction == 0 && canMove)
         {
             trailScale = 0;
             transform.eulerAngles = new Vector3(0, -90, 0);
